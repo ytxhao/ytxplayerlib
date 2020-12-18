@@ -1,0 +1,117 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabi-gcc 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabi-gcc 
+Build flags: 
+Id flags: -Aa
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabi-g++ 
+Build flags: 
+Id flags: -c
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lstdc++
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lm
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ded3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ded3b.dir/build.make CMakeFiles/cmTC_ded3b.dir/build
+make[1]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ded3b.dir/testCCompiler.c.o
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc     -o CMakeFiles/cmTC_ded3b.dir/testCCompiler.c.o   -c /home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ded3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ded3b.dir/link.txt --verbose=1
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc       CMakeFiles/cmTC_ded3b.dir/testCCompiler.c.o  -o cmTC_ded3b -rdynamic 
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtbegin_dynamic.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot open crtend_android.o: No such file or directory
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lc
+/home/yuhao/android/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld: error: cannot find -ldl
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ded3b.dir/build.make:97: recipe for target 'cmTC_ded3b' failed
+make[1]: *** [cmTC_ded3b] Error 1
+make[1]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ded3b/fast' failed
+make: *** [cmTC_ded3b/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN failed with the following output:
+Change Dir: /home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2f7ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f7ac.dir/build.make CMakeFiles/cmTC_2f7ac.dir/build
+make[1]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f7ac.dir/src.cxx.o
+/home/yuhao/android-18-toolchain/bin/arm-linux-androideabi-g++     -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTC_2f7ac.dir/src.cxx.o -c /home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mstackrealign'
+CMakeFiles/cmTC_2f7ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2f7ac.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2f7ac.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/libx265/tmp/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f7ac/fast' failed
+make: *** [cmTC_2f7ac/fast] Error 2
+
+Source file was:
+int main() { return 0; }

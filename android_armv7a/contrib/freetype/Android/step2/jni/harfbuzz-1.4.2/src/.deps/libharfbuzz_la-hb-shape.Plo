@@ -1,0 +1,230 @@
+libharfbuzz_la-hb-shape.lo: hb-shape.cc hb-private.hh ../config.h hb.h \
+ hb-blob.h hb-common.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ hb-buffer.h hb-unicode.h hb-font.h hb-face.h hb-deprecated.h hb-set.h \
+ hb-shape.h hb-shape-plan.h hb-version.h hb-ot.h hb-ot-font.h \
+ hb-ot-layout.h hb-ot-tag.h hb-ot-math.h hb-ot-shape.h hb-ot-var.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/string.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/strings.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/memory.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/assert.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdio.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/errno.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/errno.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/errno.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h \
+ hb-shaper-private.hh hb-shaper-list.hh hb-shape-plan-private.hh \
+ hb-object-private.hh hb-atomic-private.hh hb-mutex-private.hh \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/pthread.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/time.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/time.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/time.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/siginfo.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/signal.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/signal.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/ucontext.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/user.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sched.h \
+ hb-buffer-private.hh hb-unicode-private.hh hb-font-private.hh \
+ hb-face-private.hh
+
+hb-private.hh:
+
+../config.h:
+
+hb.h:
+
+hb-blob.h:
+
+hb-common.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+hb-buffer.h:
+
+hb-unicode.h:
+
+hb-font.h:
+
+hb-face.h:
+
+hb-deprecated.h:
+
+hb-set.h:
+
+hb-shape.h:
+
+hb-shape-plan.h:
+
+hb-version.h:
+
+hb-ot.h:
+
+hb-ot-font.h:
+
+hb-ot-layout.h:
+
+hb-ot-tag.h:
+
+hb-ot-math.h:
+
+hb-ot-shape.h:
+
+hb-ot-var.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/string.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/memory.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/assert.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdio.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/errno.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/errno.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/errno.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/errno-base.h:
+
+hb-shaper-private.hh:
+
+hb-shaper-list.hh:
+
+hb-shape-plan-private.hh:
+
+hb-object-private.hh:
+
+hb-atomic-private.hh:
+
+hb-mutex-private.hh:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/pthread.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/time.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/time.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/time.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/siginfo.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/signal.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/page.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/signal.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/ucontext.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/user.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sched.h:
+
+hb-buffer-private.hh:
+
+hb-unicode-private.hh:
+
+hb-font-private.hh:
+
+hb-face-private.hh:

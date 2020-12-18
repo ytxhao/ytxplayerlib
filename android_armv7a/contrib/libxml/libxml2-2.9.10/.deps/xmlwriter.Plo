@@ -1,0 +1,194 @@
+xmlwriter.lo: xmlwriter.c libxml.h include/libxml/xmlstring.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  include/libxml/xmlversion.h include/libxml/xmlexports.h config.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/string.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h \
+  include/libxml/xmlmemory.h include/libxml/threads.h \
+  include/libxml/globals.h include/libxml/parser.h include/libxml/tree.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h \
+  include/libxml/xmlregexp.h include/libxml/dict.h include/libxml/hash.h \
+  include/libxml/valid.h include/libxml/xmlerror.h include/libxml/list.h \
+  include/libxml/xmlautomata.h include/libxml/entities.h \
+  include/libxml/encoding.h include/libxml/xmlIO.h include/libxml/SAX2.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/local/include/stdlib.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdlib.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/alloca.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wait.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/wait.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/malloc.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  include/libxml/xlink.h include/libxml/uri.h include/libxml/HTMLtree.h \
+  include/libxml/HTMLparser.h include/libxml/xmlwriter.h buf.h enc.h \
+  save.h elfgcchack.h
+
+libxml.h:
+
+include/libxml/xmlstring.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h:
+
+include/libxml/xmlversion.h:
+
+include/libxml/xmlexports.h:
+
+config.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdio.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/string.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/xlocale.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/strcasecmp.h:
+
+include/libxml/xmlmemory.h:
+
+include/libxml/threads.h:
+
+include/libxml/globals.h:
+
+include/libxml/parser.h:
+
+include/libxml/tree.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/posix_limits.h:
+
+include/libxml/xmlregexp.h:
+
+include/libxml/dict.h:
+
+include/libxml/hash.h:
+
+include/libxml/valid.h:
+
+include/libxml/xmlerror.h:
+
+include/libxml/list.h:
+
+include/libxml/xmlautomata.h:
+
+include/libxml/entities.h:
+
+include/libxml/encoding.h:
+
+include/libxml/xmlIO.h:
+
+include/libxml/SAX2.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/local/include/stdlib.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdlib.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/alloca.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wait.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/linux/wait.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/malloc.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+include/libxml/xlink.h:
+
+include/libxml/uri.h:
+
+include/libxml/HTMLtree.h:
+
+include/libxml/HTMLparser.h:
+
+include/libxml/xmlwriter.h:
+
+buf.h:
+
+enc.h:
+
+save.h:
+
+elfgcchack.h:

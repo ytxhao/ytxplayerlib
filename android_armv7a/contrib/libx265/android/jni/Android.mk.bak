@@ -1,0 +1,37 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_C_INCLUDES += libpng-1.6.28
+
+
+LOCAL_CFLAGS += -DHAVE_CONFIG_H 
+
+
+LOCAL_MODULE := png16
+LOCAL_SRC_FILES := libpng-1.6.28/png.c \
+libpng-1.6.28/pngerror.c \
+libpng-1.6.28/pngget.c \
+libpng-1.6.28/pngmem.c \
+libpng-1.6.28/pngpread.c \
+libpng-1.6.28/pngread.c \
+libpng-1.6.28/pngrio.c \
+libpng-1.6.28/pngrtran.c \
+libpng-1.6.28/pngrutil.c \
+libpng-1.6.28/pngset.c \
+libpng-1.6.28/pngtrans.c \
+libpng-1.6.28/pngwio.c \
+libpng-1.6.28/pngwrite.c \
+libpng-1.6.28/pngwtran.c \
+libpng-1.6.28/pngwutil.c \
+libpng-1.6.28/arm/arm_init.c \
+libpng-1.6.28/arm/filter_neon.S \
+libpng-1.6.28/arm/filter_neon_intrinsics.c \
+libpng-1.6.28/mips/mips_init.c \
+libpng-1.6.28/mips/filter_msa_intrinsics.c \
+
+#LOCAL_STATIC_LIBRARIES := ssl crypto
+LOCAL_LDLIBS += -L$(SYSROOT)/usr/lib -lz
+include $(BUILD_SHARED_LIBRARY)
+
+#ndk-build NDK_PROJECT_PATH=. APP_BUILD_SCRIPT=./Android.mk

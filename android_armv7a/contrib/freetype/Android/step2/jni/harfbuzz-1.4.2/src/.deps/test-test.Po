@@ -1,0 +1,176 @@
+test-test.o: test.cc ../config.h hb.h hb-blob.h hb-common.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdint.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ hb-buffer.h hb-unicode.h hb-font.h hb-face.h hb-deprecated.h hb-set.h \
+ hb-shape.h hb-shape-plan.h hb-version.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/string.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/malloc.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/alloca.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/strings.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/memory.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdio.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ hb-ft.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/ft2build.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftheader.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/freetype.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftconfig.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftoption.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftstdlib.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/setjmp.h \
+ /home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/setjmp.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fttypes.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftsystem.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftimage.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fterrors.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftmoderr.h \
+ /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fterrdef.h
+
+../config.h:
+
+hb.h:
+
+hb-blob.h:
+
+hb-common.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+hb-buffer.h:
+
+hb-unicode.h:
+
+hb-font.h:
+
+hb-face.h:
+
+hb-deprecated.h:
+
+hb-set.h:
+
+hb-shape.h:
+
+hb-shape-plan.h:
+
+hb-version.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdlib.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/string.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/malloc.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/alloca.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/strings.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/memory.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/stdio.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+hb-ft.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/ft2build.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftheader.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/freetype.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftconfig.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftoption.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/config/ftstdlib.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/asm/page.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/setjmp.h:
+
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm/usr/include/machine/setjmp.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fttypes.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftsystem.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftimage.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fterrors.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/ftmoderr.h:
+
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include/freetype2/freetype/fterrdef.h:

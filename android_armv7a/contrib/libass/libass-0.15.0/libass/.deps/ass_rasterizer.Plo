@@ -1,0 +1,230 @@
+ass_rasterizer.lo: ass_rasterizer.c ../config.h ass_compat.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h \
+  ass_utils.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdbool.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/strings.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_strings_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/errno.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/math.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/math.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/limits.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/posix_limits.h \
+  ass.h ass_types.h ass_outline.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/ft2build.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftheader.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftoutln.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/freetype.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftconfig.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftoption.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftstdlib.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/setjmp.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/integer-types.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/public-macros.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/mac-support.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fttypes.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftsystem.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftimage.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fterrors.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftmoderr.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fterrdef.h \
+  ass_rasterizer.h ass_bitmap.h \
+  /shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftglyph.h
+
+../config.h:
+
+ass_compat.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/assert.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/cdefs.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/versioning.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/api-level.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/get_device_api_level_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/ndk-version.h:
+
+ass_utils.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdio.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/sys/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wchar_limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/bitsperlong.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/compiler.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/pthread_types.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/seek_constants.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdbool.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/stdlib.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/stdlib.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/alloca.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/wait.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/wait.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/malloc.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_stdlib_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/string.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/strcasecmp.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/strings.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_strings_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/errno.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/errno.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi/asm/errno.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/android/legacy_errno_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include/math.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/math.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/float.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/linux/limits.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/bits/posix_limits.h:
+
+ass.h:
+
+ass_types.h:
+
+ass_outline.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/ft2build.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftheader.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftoutln.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/freetype.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftconfig.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftoption.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/ftstdlib.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/setjmp.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/integer-types.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/public-macros.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/config/mac-support.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fttypes.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftsystem.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftimage.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fterrors.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftmoderr.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/fterrdef.h:
+
+ass_rasterizer.h:
+
+ass_bitmap.h:
+
+/shared/ytxplayerlib/ytxPlayer/android/contrib/jni/jniLibs/armeabi-v7a/include/freetype2/freetype/ftglyph.h:

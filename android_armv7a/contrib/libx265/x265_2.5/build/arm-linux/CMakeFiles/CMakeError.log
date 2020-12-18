@@ -1,0 +1,17 @@
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN failed with the following output:
+Change Dir: /home/yuhao/ytxPlayer/android/contrib/libx265/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1001f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1001f.dir/build.make CMakeFiles/cmTC_1001f.dir/build
+make[1]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/libx265/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1001f.dir/src.cxx.o
+/home/yuhao/android-18-toolchain/bin/arm-linux-androideabi-g++  --sysroot=/home/yuhao/android-18-toolchain/sysroot    -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTC_1001f.dir/src.cxx.o -c /home/yuhao/ytxPlayer/android/contrib/libx265/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp/src.cxx
+arm-linux-androideabi-g++: error: unrecognized command line option '-mstackrealign'
+CMakeFiles/cmTC_1001f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1001f.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1001f.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/libx265/x265_2.5/build/arm-linux/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1001f/fast' failed
+make: *** [cmTC_1001f/fast] Error 2
+
+Source file was:
+int main() { return 0; }

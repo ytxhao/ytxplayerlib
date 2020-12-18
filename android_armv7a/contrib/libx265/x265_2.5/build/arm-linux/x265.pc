@@ -1,0 +1,11 @@
+prefix=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/x265
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: x265
+Description: H.265/HEVC video encoder
+Version: 2.5
+Libs: -L${libdir} -lx265
+Libs.private: -lstdc++ -lm -ldl -ldl
+Cflags: -I${includedir}

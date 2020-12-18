@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/blockcopy8.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/cpu-a.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/dct-a.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/ipfilter8.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/mc-a.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/pixel-util.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/sad-a.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/ssd-a.S
+asm.S
+/home/yuhao/ytxPlayer/android/contrib/libx265/android/jni/x265_2.5/source/common/arm/asm.S
+

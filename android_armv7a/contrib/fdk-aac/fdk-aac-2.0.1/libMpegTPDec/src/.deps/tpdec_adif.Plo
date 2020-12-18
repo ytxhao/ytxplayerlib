@@ -1,0 +1,62 @@
+libMpegTPDec/src/tpdec_adif.lo: libMpegTPDec/src/tpdec_adif.cpp \
+  libMpegTPDec/src/tpdec_adif.h libMpegTPDec/include/tpdec_lib.h \
+  libMpegTPDec/include/tp_data.h libSYS/include/machine_type.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__config \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/features.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__nullptr \
+  libSYS/include/FDK_audio.h libSYS/include/genericStds.h \
+  libSYS/include/syslib_channelMapDescr.h libFDK/include/FDK_bitstream.h \
+  libFDK/include/FDK_bitbuffer.h libFDK/include/FDK_archdef.h
+
+libMpegTPDec/src/tpdec_adif.h:
+
+libMpegTPDec/include/tpdec_lib.h:
+
+libMpegTPDec/include/tp_data.h:
+
+libSYS/include/machine_type.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__config:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/features.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__nullptr:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/syslib_channelMapDescr.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libFDK/include/FDK_archdef.h:

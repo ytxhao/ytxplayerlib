@@ -1,0 +1,110 @@
+diff --git a/librtmp/Makefile b/librtmp/Makefile
+index 2c1c790..4a69848 100644
+--- a/librtmp/Makefile
++++ b/librtmp/Makefile
+@@ -1,6 +1,22 @@
+ VERSION=v2.4
+-
+-prefix=/usr/local
++# /Users/yuhao/Library/Android/android-ndk-r21b/platforms/android-26/arch-arm/
++ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
++HOST_TAG=linux-x86_64
++API=26
++# Application Binary Interface (ABI)
++ABI=armeabi-v7a
++ARCH=arm
++CPU=armv7-a
++TARGET=armv7a-linux-androideabi
++
++PLATFORM=${ANDROID_NDK_HOME}/platforms/android-26/arch-arm/
++PREBUILT=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt
++prefix=${YTXPLAYER_PATH}/android/contrib/jni/jniLibs/${ABI}
++CROSS_COMPILE=${PREBUILT}/${HOST_TAG}/bin/armv7a-linux-androideabi26-
++INC=-I$(prefix)/include
++XLDFLAGS=-L$(prefix)/lib
++CC=$(CROSS_COMPILE)clang --sysroot=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt/${HOST_TAG}/sysroot/
++#prefix=/usr/local
+ 
+ incdir=$(prefix)/include/librtmp
+ bindir=$(prefix)/bin
+@@ -11,16 +27,18 @@ INCDIR=$(DESTDIR)$(incdir)
+ LIBDIR=$(DESTDIR)$(libdir)
+ MANDIR=$(DESTDIR)$(mandir)
+ 
+-CC=$(CROSS_COMPILE)gcc
+-LD=$(CROSS_COMPILE)ld
+-AR=$(CROSS_COMPILE)ar
++#CC=$(CROSS_COMPILE)gcc
++# LD=$(CROSS_COMPILE)ld
++# AR=$(CROSS_COMPILE)ar
++LD=${PREBUILT}/${HOST_TAG}/bin/arm-linux-androideabi-ld
++AR=${PREBUILT}/${HOST_TAG}/bin/arm-linux-androideabi-ar
+ 
+ SYS=posix
+-CRYPTO=OPENSSL
++# CRYPTO=OPENSSL
+ #CRYPTO=GNUTLS
+-DEF_POLARSSL=-DUSE_POLARSSL
+-DEF_OPENSSL=-DUSE_OPENSSL
+-DEF_GNUTLS=-DUSE_GNUTLS
++# DEF_POLARSSL=-DUSE_POLARSSL
++# DEF_OPENSSL=-DUSE_OPENSSL
++#DEF_GNUTLS=-DUSE_GNUTLS
+ DEF_=-DNO_CRYPTO
+ REQ_GNUTLS=gnutls,hogweed,nettle
+ REQ_OPENSSL=libssl,libcrypto
+@@ -43,7 +61,8 @@ SOX_posix=so
+ SOX_darwin=dylib
+ SOX_mingw=dll
+ SOX=$(SOX_$(SYS))
+-SO_posix=.$(SOX).$(SO_VERSION)
++#SO_posix=.$(SOX).$(SO_VERSION)
++SO_posix=.$(SOX)
+ SO_darwin=.$(SO_VERSION).$(SOX)
+ SO_mingw=-$(SO_VERSION).$(SOX)
+ SO_EXT=$(SO_$(SYS))
+@@ -90,7 +109,8 @@ librtmp.a: $(OBJS)
+ 
+ librtmp$(SO_EXT): $(OBJS)
+ 	$(CC) $(SO_LDFLAGS) $(LDFLAGS) -o $@ $^ $> $(CRYPTO_LIB)
+-	ln -sf $@ librtmp.$(SOX)
++
++#	ln -sf $@ librtmp.$(SOX)
+ 
+ log.o: log.c log.h Makefile
+ rtmp.o: rtmp.c rtmp.h rtmp_sys.h handshake.h dh.h log.h amf.h Makefile
+@@ -117,5 +137,5 @@ install_base:	librtmp.a librtmp.pc
+ install_so:	librtmp$(SO_EXT)
+ 	cp librtmp$(SO_EXT) $(SODIR)
+ 	$(INSTALL_IMPLIB)
+-	cd $(SODIR); ln -sf librtmp$(SO_EXT) librtmp.$(SOX)
++	cd $(SODIR)
+ 
+diff --git a/librtmp/dh.h b/librtmp/dh.h
+index 5fc3f32..2c0006d 100644
+--- a/librtmp/dh.h
++++ b/librtmp/dh.h
+@@ -30,6 +30,7 @@
+ #ifdef USE_POLARSSL
+ #include <polarssl/dhm.h>
+ typedef mpi * MP_t;
++sd
+ #define MP_new(m)	m = malloc(sizeof(mpi)); mpi_init(m)
+ #define MP_set_w(mpi, w)	mpi_lset(mpi, w)
+ #define MP_cmp(u, v)	mpi_cmp_mpi(u, v)
+@@ -81,6 +82,7 @@ static int MDH_compute_key(uint8_t *secret, size_t len, MP_t pub, MDH *dh)
+ #include <nettle/bignum.h>
+ #include <gnutls/crypto.h>
+ typedef mpz_ptr MP_t;
++fd
+ #define MP_new(m)	m = malloc(sizeof(*m)); mpz_init2(m, 1)
+ #define MP_set_w(mpi, w)	mpz_set_ui(mpi, w)
+ #define MP_cmp(u, v)	mpz_cmp(u, v)
+@@ -166,7 +168,6 @@ static int MDH_compute_key(uint8_t *secret, size_t len, MP_t pub, MDH *dh)
+ #else /* USE_OPENSSL */
+ #include <openssl/bn.h>
+ #include <openssl/dh.h>
+-
+ typedef BIGNUM * MP_t;
+ #define MP_new(m)	m = BN_new()
+ #define MP_set_w(mpi, w)	BN_set_word(mpi, w)

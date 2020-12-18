@@ -1,0 +1,158 @@
+libSBRdec/src/lpp_tran.lo: libSBRdec/src/lpp_tran.cpp \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/log.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__config \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/features.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__nullptr \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h \
+  /home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  libSBRdec/src/lpp_tran.h libSBRdec/include/sbrdecoder.h \
+  libFDK/include/common_fix.h libFDK/include/FDK_archdef.h \
+  libSYS/include/machine_type.h libFDK/include/fixmul.h \
+  libFDK/include/arm/fixmul_arm.h libFDK/include/abs.h \
+  libFDK/include/clz.h libFDK/include/arm/clz_arm.h \
+  libFDK/include/fixmadd.h libFDK/include/arm/fixmadd_arm.h \
+  libFDK/include/fixminmax.h libFDK/include/cplx_mul.h \
+  libFDK/include/arm/cplx_mul_arm.h libFDK/include/fixpoint_math.h \
+  libFDK/include/scale.h libSYS/include/genericStds.h \
+  libFDK/include/arm/scale_arm.h libFDK/include/FDK_bitstream.h \
+  libFDK/include/FDK_bitbuffer.h libSYS/include/FDK_audio.h \
+  libSYS/include/syslib_channelMapDescr.h \
+  libFDK/include/FDK_qmf_domain.h libFDK/include/qmf.h \
+  libFDK/include/FDK_tools_rom.h libFDK/include/dct.h \
+  libSBRdec/src/hbe.h libSBRdec/src/sbr_ram.h libSBRdec/src/env_extr.h \
+  libSBRdec/src/psdec.h libFDK/include/FDK_hybrid.h \
+  libFDK/include/FDK_decorrelate.h libSBRdec/src/pvc_dec.h \
+  libSBRdec/src/sbr_dec.h libSBRdec/src/env_calc.h \
+  libSBRdec/src/sbrdec_drc.h libSBRdec/src/sbr_rom.h \
+  libFDK/include/autocorr2nd.h libSBRdec/src/HFgen_preFlat.h \
+  libSBRdec/src/arm/lpp_tran_arm.cpp
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/log.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdarg.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__config:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/features.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/versioning.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/get_device_api_level_inlines.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/android/ndk-version.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/pthread.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stddef.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/__stddef_max_align_t.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/__nullptr:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/c++/v1/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/9.0.8/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/stdint.h:
+
+/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+libSBRdec/src/lpp_tran.h:
+
+libSBRdec/include/sbrdecoder.h:
+
+libFDK/include/common_fix.h:
+
+libFDK/include/FDK_archdef.h:
+
+libSYS/include/machine_type.h:
+
+libFDK/include/fixmul.h:
+
+libFDK/include/arm/fixmul_arm.h:
+
+libFDK/include/abs.h:
+
+libFDK/include/clz.h:
+
+libFDK/include/arm/clz_arm.h:
+
+libFDK/include/fixmadd.h:
+
+libFDK/include/arm/fixmadd_arm.h:
+
+libFDK/include/fixminmax.h:
+
+libFDK/include/cplx_mul.h:
+
+libFDK/include/arm/cplx_mul_arm.h:
+
+libFDK/include/fixpoint_math.h:
+
+libFDK/include/scale.h:
+
+libSYS/include/genericStds.h:
+
+libFDK/include/arm/scale_arm.h:
+
+libFDK/include/FDK_bitstream.h:
+
+libFDK/include/FDK_bitbuffer.h:
+
+libSYS/include/FDK_audio.h:
+
+libSYS/include/syslib_channelMapDescr.h:
+
+libFDK/include/FDK_qmf_domain.h:
+
+libFDK/include/qmf.h:
+
+libFDK/include/FDK_tools_rom.h:
+
+libFDK/include/dct.h:
+
+libSBRdec/src/hbe.h:
+
+libSBRdec/src/sbr_ram.h:
+
+libSBRdec/src/env_extr.h:
+
+libSBRdec/src/psdec.h:
+
+libFDK/include/FDK_hybrid.h:
+
+libFDK/include/FDK_decorrelate.h:
+
+libSBRdec/src/pvc_dec.h:
+
+libSBRdec/src/sbr_dec.h:
+
+libSBRdec/src/env_calc.h:
+
+libSBRdec/src/sbrdec_drc.h:
+
+libSBRdec/src/sbr_rom.h:
+
+libFDK/include/autocorr2nd.h:
+
+libSBRdec/src/HFgen_preFlat.h:
+
+libSBRdec/src/arm/lpp_tran_arm.cpp:

@@ -1,0 +1,14 @@
+prefix=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs
+exec_prefix=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs
+libdir=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib
+includedir=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 19.0.13
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

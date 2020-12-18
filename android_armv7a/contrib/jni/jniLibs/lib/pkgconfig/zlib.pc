@@ -1,0 +1,18 @@
+ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+HOST_TAG=linux-x86_64
+API_LEVEL=26
+TARGET=arm-linux-androideabi
+TOOLCHAIN=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt/${HOST_TAG}
+prefix=${TOOLCHAIN}/sysroot/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/${TARGET}/${API_LEVEL}
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.7
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

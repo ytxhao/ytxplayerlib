@@ -1,0 +1,597 @@
+/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs
+/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for arm-linux-strip... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for arm-linux-gcc... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm accepts -g... yes
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to accept ISO C89... none needed
+checking whether /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm... none
+checking how to run the C preprocessor... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm -E
+checking for strip... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking for arm-linux-strip... (cached) /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... arm-unknown-linux-gnu
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for Minix Amsterdam compiler... no
+checking for arm-linux-ar... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+checking the archiver (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar) interface... ar
+checking for arm-linux-ar... (cached) /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... unknown
+checking for _LARGE_FILES value needed for large files... unknown
+checking for ld used by /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld
+checking if the linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking for shared library path variable... LD_LIBRARY_PATH
+checking whether to activate relocatable installation... no
+checking how to copy files... cp -p
+checking how to make hard links... ln
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld
+checking if the linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm
+checking the name lister (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to arm-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld option to reload object files... -r
+checking for arm-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for arm-linux-ar... (cached) /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+checking for archiver @FILE support... @
+checking for arm-linux-strip... (cached) /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking for arm-linux-ranlib... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib
+checking command to parse /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm output from /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for arm-linux-mt... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -fno-rtti -fno-exceptions... no
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to produce PIC... -fPIC -DPIC
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm PIC flag -fPIC -DPIC works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm static flag -static works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... (cached) yes
+checking whether the /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for arm-linux-windres... no
+checking for windres... no
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... guessing yes
+checking how to link with libiconv... /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib/libiconv.so -Wl,-rpath -Wl,/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/local/bin/msgfmt
+checking for gmsgfmt... /usr/local/bin/msgfmt
+checking for xgettext... /usr/local/bin/xgettext
+checking for msgmerge... /usr/local/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... no
+checking for iconv... (cached) yes
+checking for working iconv... (cached) guessing yes
+checking how to link with libiconv... /home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib/libiconv.so -Wl,-rpath -Wl,/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib
+checking for GNU gettext in libintl... no
+checking whether to use NLS... no
+checking for mbstate_t... yes
+checking for wchar_t... yes
+checking for getc_unlocked... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking for mbsinit... yes
+checking for setlocale... yes
+checking whether <wchar.h> is standalone... yes
+checking for memmove... yes
+checking for nl_langinfo and CODESET... no
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/time.h... yes
+checking for sys/socket.h... yes
+checking for limits.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for symlink... yes
+checking for canonicalize_file_name... no
+checking for getcwd... yes
+checking for readlink... yes
+checking for realpath... yes
+checking for readlinkat... no
+checking for getprogname... no
+checking for getexecname... no
+checking for gettimeofday... yes
+checking for lstat... yes
+checking for _set_invalid_parameter_handler... no
+checking for setenv... yes
+checking for working fcntl.h... cross-compiling
+checking for wchar.h... (cached) yes
+checking for EILSEQ... yes
+checking byte ordering... guessing little endian
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether // is distinct from /... unknown, assuming no
+checking whether realpath works... guessing yes
+checking if environ is properly declared... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for pid_t... yes
+checking for mode_t... yes
+checking for C/C++ restrict keyword... __restrict
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether gettimeofday is declared without a macro... yes
+checking whether limits.h has ULLONG_WIDTH etc.... no
+checking whether lstat correctly handles trailing slash... guessing yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for sigset_t... yes
+checking for SIGPIPE... yes
+checking whether setenv is declared... yes
+checking for ssize_t... yes
+checking for uid_t in sys/types.h... yes
+checking whether C symbols are prefixed with underscore at the linker level... no
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wint_t... yes
+checking whether wint_t is too small... no
+checking whether stdint.h conforms to C99... no
+checking sys/inttypes.h usability... no
+checking sys/inttypes.h presence... no
+checking for sys/inttypes.h... no
+checking sys/bitypes.h usability... no
+checking sys/bitypes.h presence... no
+checking for sys/bitypes.h... no
+checking for bit size of ptrdiff_t... 32
+checking for bit size of size_t... 32
+checking for bit size of sig_atomic_t... 32
+checking for bit size of wchar_t... 32
+checking for bit size of wint_t... 32
+checking whether sig_atomic_t is signed... yes
+checking whether wchar_t is signed... no
+checking whether wint_t is signed... no
+checking for ptrdiff_t integer literal suffix... 
+checking for size_t integer literal suffix... u
+checking for sig_atomic_t integer literal suffix... 
+checking for wchar_t integer literal suffix... u
+checking for wint_t integer literal suffix... u
+checking whether strerror(0) succeeds... guessing yes
+checking whether ffsl is declared without a macro... no
+checking whether ffsll is declared without a macro... no
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... no
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... no
+checking whether stpcpy is declared without a macro... no
+checking whether stpncpy is declared without a macro... no
+checking whether strchrnul is declared without a macro... no
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... no
+checking whether stat file-mode macros are broken... no
+checking for struct timespec in <time.h>... yes
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fflush_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fputs_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking whether // is distinct from /... (cached) unknown, assuming no
+checking for error_at_line... no
+checking whether fcntl is declared without a macro... yes
+checking whether openat is declared without a macro... yes
+checking whether program_invocation_name is declared... no
+checking whether program_invocation_short_name is declared... no
+checking whether __argv is declared... no
+checking whether __progname is defined in default libraries... yes
+checking whether gettimeofday clobbers localtime buffer... guessing no
+checking for gettimeofday with POSIX signature... almost
+checking for mbstate_t... (cached) yes
+checking whether program_invocation_name is declared... (cached) no
+checking whether program_invocation_short_name is declared... (cached) no
+checking for raise... yes
+checking for sigprocmask... yes
+checking whether readlink signature is correct... yes
+checking whether readlink handles trailing slash correctly... guessing yes
+checking search.h usability... no
+checking search.h presence... no
+checking for search.h... no
+checking for tsearch... no
+checking for volatile sig_atomic_t... yes
+checking for sighandler_t... yes
+checking whether pthread_sigmask is declared without a macro... no
+checking whether sigaction is declared without a macro... yes
+checking whether sigaddset is declared without a macro... yes
+checking whether sigdelset is declared without a macro... yes
+checking whether sigemptyset is declared without a macro... yes
+checking whether sigfillset is declared without a macro... yes
+checking whether sigismember is declared without a macro... yes
+checking whether sigpending is declared without a macro... yes
+checking whether sigprocmask is declared without a macro... yes
+checking for sigprocmask... (cached) yes
+checking for ssize_t... (cached) yes
+checking whether stat handles trailing slashes on directories... guessing yes
+checking whether stat handles trailing slashes on files... guessing yes
+checking for max_align_t... no
+checking whether NULL can be used in arbitrary expressions... yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking whether dprintf is declared without a macro... no
+checking whether fpurge is declared without a macro... yes
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... no
+checking whether getline is declared without a macro... no
+checking whether gets is declared without a macro... yes
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... no
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... no
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... no
+checking whether getloadavg is declared without a macro... no
+checking whether getsubopt is declared without a macro... no
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... no
+checking whether initstate_r is declared without a macro... no
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... no
+checking whether mkostemps is declared without a macro... no
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... no
+checking whether posix_openpt is declared without a macro... no
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether qsort_r is declared without a macro... no
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... no
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... no
+checking whether secure_getenv is declared without a macro... no
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... no
+checking whether setstate_r is declared without a macro... no
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... no
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for working strerror function... guessing yes
+checking for nlink_t... yes
+checking whether fchmodat is declared without a macro... yes
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... yes
+checking whether futimens is declared without a macro... yes
+checking whether lchmod is declared without a macro... no
+checking whether lstat is declared without a macro... yes
+checking whether mkdirat is declared without a macro... yes
+checking whether mkfifo is declared without a macro... yes
+checking whether mkfifoat is declared without a macro... no
+checking whether mknod is declared without a macro... yes
+checking whether mknodat is declared without a macro... no
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... no
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... no
+checking whether faccessat is declared without a macro... no
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... no
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... no
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... no
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... no
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... no
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... no
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... no
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... no
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating srclib/Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating man/Makefile
+config.status: creating tests/Makefile
+config.status: creating include/iconv.h
+config.status: creating include/iconv.h.inst
+config.status: creating config.h
+config.status: creating lib/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+=== configuring in libcharset (/home/yuhao/ytxPlayer/android/contrib/libiconv/libiconv-1.15/libcharset)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs'  '--host=arm-linux' 'host_alias=arm-linux' 'CC=/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm' 'LDFLAGS=-L/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib' 'CPPFLAGS=-fpic -DANDROID -ffunction-sections -msoft-float -lm' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for arm-linux-gcc... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm accepts -g... yes
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to accept ISO C89... none needed
+checking how to run the C preprocessor... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... arm-unknown-linux-gnu
+checking whether to activate relocatable installation... no
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld
+checking if the linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm
+checking the name lister (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to arm-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld option to reload object files... -r
+checking for arm-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for arm-linux-ar... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+checking for archiver @FILE support... @
+checking for arm-linux-strip... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking for arm-linux-ranlib... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm output from /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for arm-linux-mt... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -fno-rtti -fno-exceptions... no
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to produce PIC... -fPIC -DPIC
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm PIC flag -fPIC -DPIC works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm static flag -static works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... (cached) yes
+checking whether the /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for nl_langinfo and CODESET... no
+checking for unistd.h... (cached) yes
+checking for symlink... yes
+checking for working fcntl.h... cross-compiling
+checking whether we are using the GNU C Library >= 2.1 or uClibc... no
+checking for setlocale... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating include/localcharset.h
+config.status: creating include/localcharset.h.inst
+config.status: creating config.h
+config.status: executing libtool commands
+=== configuring in preload (/home/yuhao/ytxPlayer/android/contrib/libiconv/libiconv-1.15/preload)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs'  '--host=arm-linux' 'host_alias=arm-linux' 'CC=/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm' 'LDFLAGS=-L/home/yuhao/ytxPlayer/android/contrib/jni/jniLibs/lib' 'CPPFLAGS=-fpic -DANDROID -ffunction-sections -msoft-float -lm' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for arm-linux-gcc... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm accepts -g... yes
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to accept ISO C89... none needed
+checking how to run the C preprocessor... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... arm-unknown-linux-gnu
+checking whether to activate relocatable installation... no
+checking whether ln -s works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld
+checking if the linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm
+checking the name lister (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to arm-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld option to reload object files... -r
+checking for arm-linux-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for arm-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for arm-linux-ar... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+checking for archiver @FILE support... @
+checking for arm-linux-strip... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-strip
+checking for arm-linux-ranlib... /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib
+checking for gawk... no
+checking for mawk... mawk
+checking command to parse /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-nm output from /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for arm-linux-mt... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -fno-rtti -fno-exceptions... no
+checking for /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm option to produce PIC... -fPIC -DPIC
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm PIC flag -fPIC -DPIC works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm static flag -static works... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... yes
+checking if /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm supports -c -o file.o... (cached) yes
+checking whether the /home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/yuhao/android/ndk/android-ndk-r11b/platforms/android-19/arch-arm linker (/home/yuhao/android/ndk/android-ndk-r11b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: executing libtool commands

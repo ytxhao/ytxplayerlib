@@ -1,0 +1,95 @@
+make  all-recursive
+make[1]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2'
+Making all in src
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+make  all-recursive
+make[3]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+Making all in hb-ucdn
+make[4]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src/hb-ucdn'
+  CC       libhb_ucdn_la-ucdn.lo
+  CCLD     libhb-ucdn.la
+make[4]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src/hb-ucdn'
+make[4]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+  CXX      libharfbuzz_la-hb-blob.lo
+  CXX      libharfbuzz_la-hb-buffer-serialize.lo
+  CXX      libharfbuzz_la-hb-buffer.lo
+  CXX      libharfbuzz_la-hb-common.lo
+  CXX      libharfbuzz_la-hb-face.lo
+  CXX      libharfbuzz_la-hb-font.lo
+  CXX      libharfbuzz_la-hb-ot-tag.lo
+  CXX      libharfbuzz_la-hb-set.lo
+  CXX      libharfbuzz_la-hb-shape.lo
+  CXX      libharfbuzz_la-hb-shape-plan.lo
+  CXX      libharfbuzz_la-hb-shaper.lo
+  CXX      libharfbuzz_la-hb-unicode.lo
+  CXX      libharfbuzz_la-hb-warning.lo
+  CXX      libharfbuzz_la-hb-ot-font.lo
+  CXX      libharfbuzz_la-hb-ot-layout.lo
+  CXX      libharfbuzz_la-hb-ot-map.lo
+  CXX      libharfbuzz_la-hb-ot-math.lo
+  CXX      libharfbuzz_la-hb-ot-shape.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-arabic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-default.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hangul.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hebrew.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-myanmar.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-thai.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-tibetan.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-normalize.lo
+  CXX      libharfbuzz_la-hb-ot-shape-fallback.lo
+  CXX      libharfbuzz_la-hb-ot-var.lo
+  CXX      libharfbuzz_la-hb-fallback-shape.lo
+  CXX      libharfbuzz_la-hb-ft.lo
+  CXX      libharfbuzz_la-hb-ucdn.lo
+  GEN      libharfbuzz.la
+  CXX      main-main.o
+  CXXLD    main
+  CXX      test-test.o
+  CXXLD    test
+  CXX      test_buffer_serialize-test-buffer-serialize.o
+  CXXLD    test-buffer-serialize
+  CXX      test_size_params-test-size-params.o
+  CXXLD    test-size-params
+  CXX      test_would_substitute-test-would-substitute.o
+  CXXLD    test-would-substitute
+  GEN      harfbuzz.pc
+make[4]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+make[3]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/src'
+Making all in util
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/util'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/util'
+Making all in test
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test'
+Making all in api
+make[3]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/api'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/api'
+Making all in shaping
+make[3]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/shaping'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/shaping'
+Making all in fuzzing
+make[3]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/fuzzing'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test/fuzzing'
+make[3]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test'
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/test'
+Making all in docs
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/docs'
+Making all in win32
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/win32'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2/win32'
+make[2]: Entering directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2'
+make[2]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2'
+make[1]: Leaving directory '/home/yuhao/ytxPlayer/android/contrib/harfbuzz/harfbuzz-1.4.2'
