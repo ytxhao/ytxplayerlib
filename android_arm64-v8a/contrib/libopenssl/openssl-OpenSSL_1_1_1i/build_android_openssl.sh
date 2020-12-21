@@ -8,8 +8,8 @@ ARCH=arm64
 CPU=armv8-a
 TARGET=aarch64-linux-androideabi
 PREBUILT=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt
-PREFIX=$YTXPLAYER_PATH/android/contrib/jni/jniLibs/$ABI
-
+YTXPLAYER_PATH=$(git rev-parse --show-toplevel)
+PREFIX=$YTXPLAYER_PATH/build/output/jniLibs/$ABI
 # SYSROOT=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/$HOST_TAG/sysroot
 
 PATH=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt/$HOST_TAG/bin:$ANDROID_NDK_HOME/toolchains/arm-linux-androideabi-4.9/prebuilt/$HOST_TAG/bin:$PATH
@@ -25,13 +25,13 @@ echo $PREFIX
 
 OPENSSL_PREFIX=$PREFIX
 # 设置编译的目标库
-# 目标库的选项 android-arm, android-arm64, android-x86, android-x86 etc
+# 目标库的选项 android-arm, android-arm64, android-x86,  android-x86_64 etc
 OPENSSL_PLATFORM_CFG_FLAGS="android-arm64"
 
 #--------------------
 # Standard options:
 OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS zlib"
-OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS no-shared"
+# OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS no-shared"
 OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS no-asm"
 OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS --prefix=$OPENSSL_PREFIX"
 OPENSSL_CFG_FLAGS="$OPENSSL_CFG_FLAGS $OPENSSL_PLATFORM_CFG_FLAGS"
