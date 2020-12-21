@@ -1,6 +1,25 @@
 VERSION=v2.4
 
-prefix=/usr/local
+ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+YTXPLAYER_PATH=$(shell git rev-parse --show-toplevel)
+HOST_TAG=linux-x86_64
+API=26
+# Application Binary Interface (ABI)
+ABI=arm64-v8a
+ARCH=arm64
+CPU=armv8-a
+TARGET=aarch64-linux-android
+
+PLATFORM=${ANDROID_NDK_HOME}/platforms/android-26/arch-arm64
+PREBUILT=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt
+prefix=${YTXPLAYER_PATH}/build/output/jniLibs/${ABI}
+CROSS_COMPILE=${PREBUILT}/${HOST_TAG}/bin/${TARGET}${API}-
+INC=-I$(prefix)/include
+XLDFLAGS=-L$(prefix)/lib
+CC=$(CROSS_COMPILE)clang --sysroot=${ANDROID_NDK_HOME}/toolchains/llvm/prebuilt/${HOST_TAG}/sysroot/
+
+# prefix=/usr/local
+
 
 incdir=$(prefix)/include/librtmp
 bindir=$(prefix)/bin
@@ -11,9 +30,11 @@ INCDIR=$(DESTDIR)$(incdir)
 LIBDIR=$(DESTDIR)$(libdir)
 MANDIR=$(DESTDIR)$(mandir)
 
-CC=$(CROSS_COMPILE)gcc
-LD=$(CROSS_COMPILE)ld
-AR=$(CROSS_COMPILE)ar
+# CC=$(CROSS_COMPILE)gcc
+# LD=$(CROSS_COMPILE)ld
+# AR=$(CROSS_COMPILE)ar
+LD=${PREBUILT}/${HOST_TAG}/bin/arm-linux-androideabi-ld
+AR=${PREBUILT}/${HOST_TAG}/bin/arm-linux-androideabi-ar
 
 SYS=posix
 CRYPTO=OPENSSL
@@ -43,7 +64,7 @@ SOX_posix=so
 SOX_darwin=dylib
 SOX_mingw=dll
 SOX=$(SOX_$(SYS))
-SO_posix=.$(SOX).$(SO_VERSION)
+SO_posix=.$(SO_VERSION).$(SOX)
 SO_darwin=.$(SO_VERSION).$(SOX)
 SO_mingw=-$(SO_VERSION).$(SOX)
 SO_EXT=$(SO_$(SYS))
@@ -90,7 +111,7 @@ librtmp.a: $(OBJS)
 
 librtmp$(SO_EXT): $(OBJS)
 	$(CC) $(SO_LDFLAGS) $(LDFLAGS) -o $@ $^ $> $(CRYPTO_LIB)
-	ln -sf $@ librtmp.$(SOX)
+# 	ln -sf $@ librtmp.$(SOX)
 
 log.o: log.c log.h Makefile
 rtmp.o: rtmp.c rtmp.h rtmp_sys.h handshake.h dh.h log.h amf.h Makefile
@@ -117,5 +138,5 @@ install_base:	librtmp.a librtmp.pc
 install_so:	librtmp$(SO_EXT)
 	cp librtmp$(SO_EXT) $(SODIR)
 	$(INSTALL_IMPLIB)
-	cd $(SODIR); ln -sf librtmp$(SO_EXT) librtmp.$(SOX)
+	cd $(SODIR); 
 
