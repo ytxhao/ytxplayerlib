@@ -159,3 +159,5 @@ test/subset/Makefile
 test/subset/data/Makefile
 util/.deps/
 util/Makefile
+src/libharfbuzz_la-hb-ft.lo
+src/libharfbuzz_la-hb-ft.o
