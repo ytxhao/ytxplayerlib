@@ -406,7 +406,6 @@ ifneq ($(IMPLIBNAME),)
 	$(INSTALL) -m 755 $(SONAME) $(DESTDIR)$(bindir)
 	$(INSTALL) -m 644 $(IMPLIBNAME) $(DESTDIR)$(libdir)
 else ifneq ($(SONAME),)
-	ln -f -s $(SONAME) $(DESTDIR)$(libdir)/libx264.$(SOSUFFIX)
 	$(INSTALL) -m 755 $(SONAME) $(DESTDIR)$(libdir)
 endif
 
