@@ -57,9 +57,9 @@ export LD="$PREBUILT/$HOST_TAG/bin/${TARGET}-ld"
 --with-cairo=no \
 --with-icu=no \
 --with-glib=no \
---with-freetype=no \
+--with-freetype=yes \
 --enable-static=yes \
---enable-shared=yes \
+--enable-shared=yes 
 
 # 使用--with-sysroot设置root路径时编译查找freetype依赖的libpng路径会出现错误
 # --with-sysroot=${PLATFORM} \
