@@ -14,7 +14,7 @@ TARGET=aarch64-linux-android
 PREBUILT=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt
 PREFIX=$YTXPLAYER_PATH/build/output/jniLibs/$ABI
 
-PLATFORM=$ANDROID_NDK_HOME/platforms/android-$API/arch-$ARCH/
+PLATFORM=$ANDROID_NDK_HOME/platforms/android-$API/arch-$ARCH
 TOOLCHAIN=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/$HOST_TAG
 
 echo $PREFIX

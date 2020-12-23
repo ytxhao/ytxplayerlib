@@ -14,7 +14,7 @@ TARGET=aarch64-linux-android
 PREBUILT=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt
 PREFIX=$YTXPLAYER_PATH/build/output/jniLibs/$ABI
 
-PLATFORM=$ANDROID_NDK_HOME/platforms/android-$API/arch-$ARCH/
+PLATFORM=$ANDROID_NDK_HOME/platforms/android-$API/arch-$ARCH
 TOOLCHAIN=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/$HOST_TAG
 
 echo $PREFIX
@@ -25,6 +25,7 @@ CFLAGS="-fpic"
 LDFLAGS=-L${PREFIX}/lib
 export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig
 export PKG_CONFIG_LIBDIR=${PREFIX}/lib/pkgconfig
+
 export CPPFLAGS="$CFLAGS"
 export CXXFLAGS="$CFLAGS"
 export LDFLAGS="$LDFLAGS"
@@ -45,6 +46,10 @@ export LD="$PREBUILT/$HOST_TAG/bin/${TARGET}-ld"
 
 export LIBPNG_CFLAGS="-I${PREFIX}/include"
 export LIBPNG_LIBS="-L${PREFIX}/lib -lpng16"
+# echo "start"
+# libpng-config --cflags
+# libpng-config --ldflags
+# libpng-config --static --ldflags
 
 ./configure --prefix=$PREFIX \
 --host=arm-linux-androideabi \
