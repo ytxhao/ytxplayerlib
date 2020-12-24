@@ -64,8 +64,8 @@ SOX_posix=so
 SOX_darwin=dylib
 SOX_mingw=dll
 SOX=$(SOX_$(SYS))
-SO_posix=.$(SO_VERSION).$(SOX)
-SO_darwin=.$(SO_VERSION).$(SOX)
+SO_posix=.$(SOX)
+SO_darwin=.$(SOX)
 SO_mingw=-$(SO_VERSION).$(SOX)
 SO_EXT=$(SO_$(SYS))
 
