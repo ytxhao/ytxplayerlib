@@ -1,20 +1,3 @@
-ANDROID_NDK_HOME=/home/yuhao/Android/android-ndk-r21d
-YTXPLAYER_PATH=/shared/ytxplayerlib
-HOST_TAG=linux-x86_64
-API=26
-ABI=arm64-v8a
-ARCH=arm64
-CPU=armv8-a
-TARGET=aarch64-linux-android
-PLATFORM=/home/yuhao/Android/android-ndk-r21d/platforms/android-26/arch-arm64
-PREBUILT=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt
-prefix=/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a
-CROSS_COMPILE=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android26-
-INC=-I/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a/include
-XLDFLAGS=-L/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a/lib
-CC=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android26-clang --sysroot=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot
-LD=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ld
-AR=/home/yuhao/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar
 VERSION=v2.4
 # prefix=/usr/local
 
