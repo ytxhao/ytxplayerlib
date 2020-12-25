@@ -1,5 +1,5 @@
 # libxml2-2.9.10
-export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+#export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
 YTXPLAYER_PATH=$(git rev-parse --show-toplevel)
 HOST_TAG=linux-x86_64
 API=26

@@ -2,7 +2,7 @@
 #http://www.linuxfromscratch.org/blfs/view/svn/general/freetype2.html
 # Recommended
 # HarfBuzz-2.7.2 (first, install without it, after it is installed, reinstall FreeType-2.10.4), libpng-1.6.37, and Which-2.21
-export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+#export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
 YTXPLAYER_PATH=$(git rev-parse --show-toplevel)
 HOST_TAG=linux-x86_64
 API=26

@@ -1,5 +1,6 @@
 #libx264
-export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+#使用环境变量中的ANDROID_NDK_HOME
+#export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
 YTXPLAYER_PATH=$(git rev-parse --show-toplevel)
 HOST_TAG=linux-x86_64
 

@@ -1,5 +1,6 @@
 # OpenSSL_1_1_1i
-export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
+# 使用环境变量中的ANDROID_NDK_HOME
+#export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
 HOST_TAG=linux-x86_64
 API=26
 # Application Binary Interface (ABI)
