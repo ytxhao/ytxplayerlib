@@ -107,11 +107,15 @@ export LD="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ld"
 
 ./configure --prefix=$PREFIX \
 --host=$HOST \
---with-sysroot=${TOOLCHAIN}/sysroot \
 --enable-shared=yes \
  --enable-static=yes \
 --without-python \
 
+#  --with-sysroot[=DIR]    Search for dependent libraries within DIR (or the
+#                          compiler's sysroot if not specified).
+# 注释掉 --with-sysroot，否则编译时会去指定的 sysroot 查找三方依赖库
+
+#--with-sysroot=${TOOLCHAIN}/sysroot \
 # --with-python=/usr/bin/python3
 
 if [ $? -ne 0 ];then
