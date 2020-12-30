@@ -65,7 +65,6 @@ libxml2-config.cmake
 libxml2.la
 libxml2.spec
 list
-ltmain.sh
 log
 missing
 missing.lst
