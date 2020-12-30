@@ -9,6 +9,7 @@ ABI=
 ARCH=
 TARGET=
 TARGET_TOOL=
+HOST=
 
 fun_build_clean() {
   echo "build target clean"
@@ -22,6 +23,7 @@ fun_build_config_armv7a() {
   ARCH=arm
   TARGET=armv7a-linux-androideabi
   TARGET_TOOL=arm-linux-androideabi
+  HOST=arm-linux-android
 }
 
 fun_build_config_arm64() {
@@ -31,6 +33,7 @@ fun_build_config_arm64() {
   ARCH=arm64
   TARGET=aarch64-linux-android
   TARGET_TOOL=aarch64-linux-android
+  HOST=arm-linux-android
 }
 
 fun_build_config_x86() {
@@ -40,6 +43,7 @@ fun_build_config_x86() {
   ARCH=x86
   TARGET=i686-linux-android
   TARGET_TOOL=i686-linux-android
+  HOST=x86-linux-android
 }
 
 fun_build_config_x86_64() {
@@ -49,6 +53,7 @@ fun_build_config_x86_64() {
   ARCH=x86_64
   TARGET=x86_64-linux-android
   TARGET_TOOL=x86_64-linux-android
+  HOST=x86-linux-android
 }
 
 if [ "$1" = "clean" ]; then
@@ -116,10 +121,12 @@ export LD="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ld"
 # export LD="${CROSS_COMPILE}clang"
 
 ./configure --prefix=$PREFIX \
---host=linux-androideabi \
+--host=$HOST \
 --disable-asm \
-----enable-pic \
---with-sysroot=${SYSROOT}
+--enable-pic \
+
+
+#--with-sysroot=${SYSROOT}
 
 if [ $? -ne 0 ];then
     echo "configure faad2 error!"
