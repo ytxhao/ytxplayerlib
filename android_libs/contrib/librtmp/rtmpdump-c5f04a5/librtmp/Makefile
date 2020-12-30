@@ -2,18 +2,18 @@ ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
 YTXPLAYER_PATH=/shared/ytxplayerlib
 HOST_TAG=linux-x86_64
 API=26
-ABI=armeabi-v7a
-ARCH=arm
-TARGET=armv7a-linux-androideabi
-PLATFORM=/home/vagrant/Android/android-ndk-r21d/platforms/android-26/arch-arm
+ABI=arm64-v8a
+ARCH=arm64
+TARGET=aarch64-linux-android
+PLATFORM=/home/vagrant/Android/android-ndk-r21d/platforms/android-26/arch-arm64
 PREBUILT=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt
-prefix=/shared/ytxplayerlib/build/output/jniLibs/armeabi-v7a
-CROSS_COMPILE=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi26-
-INC=-I/shared/ytxplayerlib/build/output/jniLibs/armeabi-v7a/include
-XLDFLAGS=-L/shared/ytxplayerlib/build/output/jniLibs/armeabi-v7a/lib
-CC=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi26-clang --sysroot=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot
-LD=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ld
-AR=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar
+prefix=/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a
+CROSS_COMPILE=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android26-
+INC=-I/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a/include
+XLDFLAGS=-L/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a/lib
+CC=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android26-clang --sysroot=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/sysroot
+LD=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ld
+AR=/home/vagrant/Android/android-ndk-r21d/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar
 VERSION=v2.4
 # prefix=/usr/local
 

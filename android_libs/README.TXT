@@ -13,7 +13,7 @@ Compile the order
 4.  compile faad2
 5.  compile libx264
 6.  compile libiconv
-7.  compile libxml
+7.  compile libxml (libxml depend libiconv )
 8.  compile libpng
 9.  compile fribidi-1.0.9
 10. compile freetype first(--with-harfbuzz=no)
@@ -53,29 +53,34 @@ Depend on
  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
- 0x000000000000000e (SONAME)             Library soname: [libfaad.so]]
+ 0x000000000000000e (SONAME)             Library soname: [libfaad.so]
 6. libx264
  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libx264.so]
-7. libxml2
+7. libiconv
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libiconv.so]
+8. libxml2
  0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libxml2.so]
-8. libpng16
+9. libpng16
  0x0000000000000001 (NEEDED)             Shared library: [libz.so]
  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libpng16.so]
-9. libfribidi
+10. libfribidi
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libfribidi.so]
-10. libfreetype
+11. libfreetype
  0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
  0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
  0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
@@ -84,16 +89,17 @@ Depend on
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libfreetype.so]
-11. libfontconfig
+12. libfontconfig
  0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
  0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
  0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
  0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
  0x0000000000000001 (NEEDED)             Shared library: [libm.so]
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libfontconfig.so]
-12. libharfbuzz
+13. libharfbuzz
  0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
  0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
  0x0000000000000001 (NEEDED)             Shared library: [libz.so]
@@ -101,15 +107,11 @@ Depend on
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libharfbuzz.so]
-13. libiconv
- 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
- 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
- 0x000000000000000e (SONAME)             Library soname: [libiconv.so]
 14. libass
- 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
  0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
  0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
  0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
  0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
  0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
  0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]

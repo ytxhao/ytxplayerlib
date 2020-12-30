@@ -1,6 +1,6 @@
-prefix=/shared/ytxplayerlib/build/output/jniLibs/armeabi-v7a
+prefix=/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a
 exec_prefix=${prefix}
-libdir=/shared/ytxplayerlib/build/output/jniLibs/armeabi-v7a/lib
+libdir=/shared/ytxplayerlib/build/output/jniLibs/arm64-v8a/lib
 incdir=${prefix}/include
 
 Name: librtmp
