@@ -12,14 +12,14 @@ Compile the order
 3.  compile libfdk-aac
 4.  compile faad2
 5.  compile libx264
-6.  compile libxml
-7.  compile libpng
-8.  compile fribidi-1.0.9
-9.  compile freetype first(--with-harfbuzz=no)
-10. compile fontconfig (fontconfig depend freetype )
-11. compile harfbuzz
-12. compile freetype second(--with-harfbuzz=yes freetype depend on libpng and harfbuzz)
-13. compile libiconv
+6.  compile libiconv
+7.  compile libxml
+8.  compile libpng
+9.  compile fribidi-1.0.9
+10. compile freetype first(--with-harfbuzz=no)
+11. compile fontconfig (fontconfig depend freetype )
+12. compile harfbuzz
+13. compile freetype second(--with-harfbuzz=yes freetype depend on libpng and harfbuzz)
 14. compile libass (libass depend on freetype and fribidi and libiconv)
 15. compile liblame
 16. compile ffmpeg
