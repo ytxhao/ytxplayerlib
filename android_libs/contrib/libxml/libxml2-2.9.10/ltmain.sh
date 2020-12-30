@@ -10779,7 +10779,7 @@ EOF
 		eval libdir=`$SED -n -e 's/^libdir=\(.*\)$/\1/p' $func_resolve_sysroot_result`
 		test -z "$libdir" && \
 		  func_fatal_error "'$deplib' is not a valid libtool archive"
-		func_append newdependency_libs " ${lt_sysroot:+=}$libdir/$name"
+		func_append newdependency_libs " $libdir/$name"
 		;;
 	      -L*)
 		func_stripname -L '' "$deplib"
@@ -10805,7 +10805,7 @@ EOF
 		eval libdir=`$SED -n -e 's/^libdir=\(.*\)$/\1/p' $lib`
 		test -z "$libdir" && \
 		  func_fatal_error "'$lib' is not a valid libtool archive"
-		func_append newdlfiles " ${lt_sysroot:+=}$libdir/$name"
+		func_append newdlfiles " $libdir/$name"
 		;;
 	      *) func_append newdlfiles " $lib" ;;
 	      esac
@@ -10824,7 +10824,7 @@ EOF
 		eval libdir=`$SED -n -e 's/^libdir=\(.*\)$/\1/p' $lib`
 		test -z "$libdir" && \
 		  func_fatal_error "'$lib' is not a valid libtool archive"
-		func_append newdlprefiles " ${lt_sysroot:+=}$libdir/$name"
+		func_append newdlprefiles " $libdir/$name"
 		;;
 	      esac
 	    done
