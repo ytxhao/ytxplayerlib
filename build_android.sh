@@ -1,25 +1,21 @@
 #!/bin/bash
 
-help() {
+show_help() {
   echo "$0 [OPTIONS]"
-  echo "  -h: help"
-  echo "  -armv7a: "
-  echo "  -arm64: "
-  echo "  -x86: "
-  echo "  -x86_64: "
-  echo "  clean: clean project"
+  cat <<EOF
+  --help              print this message
+  --build=armv7a      build armv7a
+  --build=arm64       build arm64
+  --build=x86         build x86
+  --build=x86_64      build x86_64
+  --enable-clean      clean sub project before build it
+  clean               clean all project
+EOF
+  exit 0
 }
-#variable=yuhaoo
-#echo "This $variable is quoted $( echo $variable is not)"
-#echo "This $variable is quoted $(echo this "$variable" is too)"
 
 current_dir=$(pwd)
 deps_dir="android_libs/contrib"
-
-if [ "$1" = "-h" ]; then
-  help
-  exit
-fi
 
 fun_build_clean_openssl() {
   echo "build target clean"
@@ -117,6 +113,7 @@ fun_build_clean_libpng() {
       exit 1
   fi
 }
+
 fun_build_clean_fribidi() {
   cd "$current_dir/$deps_dir/libfribidi/fribidi-1.0.9"
   if [ $? -ne 0 ];then
@@ -128,6 +125,7 @@ fun_build_clean_fribidi() {
       exit 1
   fi
 }
+
 fun_build_clean_freetype() {
   cd "$current_dir/$deps_dir/libfreetype/freetype-2.10.4"
   if [ $? -ne 0 ];then
@@ -139,6 +137,7 @@ fun_build_clean_freetype() {
       exit 1
   fi
 }
+
 fun_build_clean_fontconfig() {
   cd "$current_dir/$deps_dir/libfontconfig/fontconfig-2.13.91"
   if [ $? -ne 0 ];then
@@ -174,7 +173,6 @@ fun_build_clean_libass() {
       echo "make clean libass error!"
       exit 1
   fi
-
 }
 fun_build_clean_lame() {
   cd "$current_dir/$deps_dir/liblame/lame-3.100"
@@ -218,294 +216,337 @@ fun_build_clean() {
   fun_build_clean_libass
   fun_build_clean_lame
   fun_build_clean_ffmpeg
+  exit 0
 }
 
-fun_build_armv7a() {
-  echo "build target armv7a"
-#  fun_build_clean_openssl
-#  cd "$current_dir/$deps_dir/libopenssl/openssl-OpenSSL_1_1_1i"
-#  if [ $? -ne 0 ];then
-#      echo "cd openssl dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_openssl.sh -armv7a); then
-#    echo "build openssl target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_rtmp
-#  cd "$current_dir/$deps_dir/librtmp/rtmpdump-c5f04a5/librtmp"
-#  if [ $? -ne 0 ];then
-#      echo "cd librtmp dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_librtmp.sh -armv7a); then
-#    echo "build librtmp target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_fdk_aac
-#  cd "$current_dir/$deps_dir/libfdk-aac/fdk-aac-2.0.1"
-#  if [ $? -ne 0 ];then
-#      echo "cd libfdk dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_fdk_aac.sh -armv7a); then
-#    echo "build libfdk target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_faad2
-#  cd "$current_dir/$deps_dir/libfaad2/faad2-2.8.8"
-#  if [ $? -ne 0 ];then
-#      echo "cd faad2 dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_faad2.sh -armv7a); then
-#    echo "build faad2 target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_x264
-#  cd "$current_dir/$deps_dir/libx264/x264-stable"
-#  if [ $? -ne 0 ];then
-#      echo "cd x264 dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_x264.sh -armv7a); then
-#    echo "build x264 target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_iconv
-#  cd "$current_dir/$deps_dir/libiconv/libiconv-1.15"
-#  if [ $? -ne 0 ];then
-#      echo "cd iconv dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_libiconv.sh -armv7a); then
-#    echo "build iconv target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_xml
-#  cd "$current_dir/$deps_dir/libxml/libxml2-2.9.10"
-#  if [ $? -ne 0 ];then
-#      echo "cd xml dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_libxml.sh -armv7a); then
-#    echo "build xml target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_libpng
-#  cd "$current_dir/$deps_dir/libpng/libpng-1.6.37"
-#  if [ $? -ne 0 ];then
-#      echo "cd libpng dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_libpng.sh -armv7a); then
-#    echo "build libpng target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_fribidi
-#  cd "$current_dir/$deps_dir/libfribidi/fribidi-1.0.9"
-#  if [ $? -ne 0 ];then
-#      echo "cd fribidi dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_fribidi.sh -armv7a); then
-#    echo "build fribidi target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_freetype
-#  cd "$current_dir/$deps_dir/libfreetype/freetype-2.10.4"
-#  if [ $? -ne 0 ];then
-#      echo "cd freetype dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_freetype_step1.sh -armv7a); then
-#    echo "build freetype target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_fontconfig
-#  cd "$current_dir/$deps_dir/libfontconfig/fontconfig-2.13.91"
-#  if [ $? -ne 0 ];then
-#      echo "cd fontconfig dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_fontconfig.sh -armv7a); then
-#    echo "build fontconfig target armv7a error!"
-#    exit 1
-#  fi
-#
-#  fun_build_clean_harfbuzz
-#  cd "$current_dir/$deps_dir/libharfbuzz/harfbuzz-2.7.2"
-#  if [ $? -ne 0 ];then
-#      echo "cd harfbuzz dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_harfbuzz.sh -armv7a); then
-#    echo "build harfbuzz target armv7a error!"
-#    exit 1
-#  fi
-#
-  fun_build_clean_freetype
+
+fun_build_openssl() {
+  cd "$current_dir/$deps_dir/libopenssl/openssl-OpenSSL_1_1_1i"
+  if [ $? -ne 0 ];then
+      echo "cd openssl dir error!"
+      exit 1
+  fi
+  if ! (./build_android_openssl.sh $1); then
+    echo "build openssl target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_rtmp() {
+  cd "$current_dir/$deps_dir/librtmp/rtmpdump-c5f04a5/librtmp"
+  if [ $? -ne 0 ];then
+      echo "cd librtmp dir error!"
+      exit 1
+  fi
+  if ! (./build_android_librtmp.sh $1); then
+    echo "build librtmp target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_fdk_aac() {
+  cd "$current_dir/$deps_dir/libfdk-aac/fdk-aac-2.0.1"
+  if [ $? -ne 0 ];then
+      echo "cd libfdk dir error!"
+      exit 1
+  fi
+  if ! (./build_android_fdk_aac.sh $1); then
+    echo "build libfdk target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_faad2() {
+  cd "$current_dir/$deps_dir/libfaad2/faad2-2.8.8"
+  if [ $? -ne 0 ];then
+      echo "cd faad2 dir error!"
+      exit 1
+  fi
+  if ! (./build_android_faad2.sh $1); then
+    echo "build faad2 target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_x264() {
+  cd "$current_dir/$deps_dir/libx264/x264-stable"
+  if [ $? -ne 0 ];then
+      echo "cd x264 dir error!"
+      exit 1
+  fi
+  if ! (./build_android_x264.sh $1); then
+    echo "build x264 target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_iconv() {
+  cd "$current_dir/$deps_dir/libiconv/libiconv-1.15"
+  if [ $? -ne 0 ];then
+      echo "cd iconv dir error!"
+      exit 1
+  fi
+  if ! (./build_android_libiconv.sh $1); then
+    echo "build iconv target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_xml() {
+  cd "$current_dir/$deps_dir/libxml/libxml2-2.9.10"
+  if [ $? -ne 0 ];then
+      echo "cd xml dir error!"
+      exit 1
+  fi
+  if ! (./build_android_libxml.sh $1); then
+    echo "build xml target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_libpng() {
+  cd "$current_dir/$deps_dir/libpng/libpng-1.6.37"
+  if [ $? -ne 0 ];then
+      echo "cd libpng dir error!"
+      exit 1
+  fi
+  if ! (./build_android_libpng.sh $1); then
+    echo "build libpng target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_fribidi() {
+  cd "$current_dir/$deps_dir/libfribidi/fribidi-1.0.9"
+  if [ $? -ne 0 ];then
+      echo "cd fribidi dir error!"
+      exit 1
+  fi
+  if ! (./build_android_fribidi.sh $1); then
+    echo "build fribidi target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_freetype_step1() {
+  cd "$current_dir/$deps_dir/libfreetype/freetype-2.10.4"
+  if [ $? -ne 0 ];then
+      echo "cd freetype dir error!"
+      exit 1
+  fi
+  if ! (./build_android_freetype_step1.sh $1); then
+    echo "build freetype target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_fontconfig() {
+  cd "$current_dir/$deps_dir/libfontconfig/fontconfig-2.13.91"
+  if [ $? -ne 0 ];then
+      echo "cd fontconfig dir error!"
+      exit 1
+  fi
+  if ! (./build_android_fontconfig.sh $1); then
+    echo "build fontconfig target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_harfbuzz() {
+  cd "$current_dir/$deps_dir/libharfbuzz/harfbuzz-2.7.2"
+  if [ $? -ne 0 ];then
+      echo "cd harfbuzz dir error!"
+      exit 1
+  fi
+  if ! (./build_android_harfbuzz.sh $1); then
+    echo "build harfbuzz target $1 error!"
+    exit 1
+  fi
+}
+
+fun_build_freetype_step2() {
   cd "$current_dir/$deps_dir/libfreetype/freetype-2.10.4"
   if [ $? -ne 0 ];then
       echo "cd freetype 2 dir error!"
       exit 1
   fi
-  if ! (./build_android_freetype_step2_after_build_harfbuzz.sh -armv7a); then
-    echo "build freetype 2 target armv7a error!"
+  if ! (./build_android_freetype_step2_after_build_harfbuzz.sh $1); then
+    echo "build freetype 2 target $1 error!"
     exit 1
   fi
+}
 
-  fun_build_clean_libass
+fun_build_libass() {
   cd "$current_dir/$deps_dir/libass/libass-0.15.0"
   if [ $? -ne 0 ];then
       echo "cd libass dir error!"
       exit 1
   fi
-  if ! (./build_android_libass.sh -armv7a); then
-    echo "build libass target armv7a error!"
+  if ! (./build_android_libass.sh $1); then
+    echo "build libass target $1 error!"
     exit 1
   fi
+}
 
-  fun_build_clean_lame
+fun_build_lame() {
   cd "$current_dir/$deps_dir/liblame/lame-3.100"
   if [ $? -ne 0 ];then
       echo "cd lame dir error!"
       exit 1
   fi
-  if ! (./build_android_lame.sh -armv7a); then
-    echo "build lame target armv7a error!"
+  if ! (./build_android_lame.sh $1); then
+    echo "build lame target $1 error!"
     exit 1
   fi
+}
 
-  fun_build_clean_ffmpeg
+fun_build_ffmpeg() {
   cd "$current_dir/$deps_dir/libffmpeg/ffmpeg-4.3.1"
   if [ $? -ne 0 ];then
       echo "cd ffmpeg dir error!"
       exit 1
   fi
-  if ! (./build_android_ffmpeg.sh -armv7a); then
-    echo "build ffmpeg target armv7a error!"
+  if ! (./build_android_ffmpeg.sh $1); then
+    echo "build ffmpeg target $1 error!"
     exit 1
   fi
 }
 
-fun_build_arm64() {
-  echo "build target arm64"
-#  cd "$current_dir/$deps_dir/libopenssl/openssl-OpenSSL_1_1_1i"
-#  if [ $? -ne 0 ];then
-#      echo "cd openssl dir error!"
-#      exit 1
-#  fi
-#  if ! (./build_android_openssl.sh -arm64); then
-#    echo "build openssl target arm64 error!"
-#    exit 1
-#  fi
-  cd "$current_dir/$deps_dir/librtmp/rtmpdump-c5f04a5/librtmp"
-  if [ $? -ne 0 ];then
-      echo "cd librtmp dir error!"
-      exit 1
+fun_build_android_libs() {
+  echo "build target param1=$1 param2=$2"
+  if [ $1 = true ]; then
+    echo "build clean openssl"
+    fun_build_clean_openssl
   fi
-  if ! (./build_android_librtmp.sh -arm64); then
-    echo "build openssl target arm64 error!"
-    exit 1
-  fi
+  fun_build_openssl $2
 
-  cd "$current_dir/$deps_dir/libfdk-aac/fdk-aac-2.0.1"
-  if [ $? -ne 0 ];then
-      echo "cd libfdk dir error!"
-      exit 1
+  if [ $1 = true ]; then
+    echo "build clean rtmp"
+    fun_build_clean_rtmp
   fi
-  if ! (./build_android_fdk_aac.sh -arm64); then
-    echo "build libfdk target arm64 error!"
-    exit 1
+  fun_build_rtmp $2
+
+  if [ $1 = true ]; then
+    echo "build clean fdk_aac"
+    fun_build_clean_fdk_aac
   fi
+  fun_build_fdk_aac $2
+
+  if [ $1 = true ]; then
+    echo "build clean faad2"
+  fun_build_clean_faad2
+  fi
+  fun_build_faad2 $2
+
+  if [ $1 = true ]; then
+    echo "build clean x264"
+    fun_build_clean_x264
+  fi
+  fun_build_x264 $2
+
+  if [ $1 = true ]; then
+    echo "build clean iconv"
+    fun_build_clean_iconv
+  fi
+  fun_build_iconv $2
+
+  if [ $1 = true ]; then
+    echo "build clean xml"
+  fun_build_clean_xml
+  fi
+  fun_build_xml $2
+
+  if [ $1 = true ]; then
+    echo "build clean libpng"
+  fun_build_clean_libpng
+  fi
+  fun_build_libpng $2
+
+  if [ $1 = true ]; then
+    echo "build clean fribidi"
+  fun_build_clean_fribidi
+  fi
+  fun_build_fribidi $2
+
+  if [ $1 = true ]; then
+    echo "build clean freetype"
+  fun_build_clean_freetype
+  fi
+  fun_build_freetype_step1 $2
+
+  if [ $1 = true ]; then
+    echo "build clean fontconfig"
+  fun_build_clean_fontconfig
+  fi
+  fun_build_fontconfig $2
+
+  if [ $1 = true ]; then
+    echo "build clean harfbuzz"
+  fun_build_clean_harfbuzz
+  fi
+  fun_build_harfbuzz $2
+
+  if [ $1 = true ]; then
+    echo "build clean freetype"
+  fun_build_clean_freetype
+  fi
+  fun_build_freetype_step2 $2
+
+  if [ $1 = true ]; then
+    echo "build clean libass"
+  fun_build_clean_libass
+  fi
+  fun_build_libass $2
+
+  if [ $1 = true ]; then
+    echo "build clean lame"
+  fun_build_clean_lame
+  fi
+  fun_build_lame $2
+
+  if [ $1 = true ]; then
+    echo "build clean ffmpeg"
+  fun_build_clean_ffmpeg
+  fi
+  fun_build_ffmpeg $2
 }
 
-fun_build_x86() {
-  echo "build target x86"
-  cd "$current_dir/$deps_dir/libopenssl/openssl-OpenSSL_1_1_1i"
-  if [ $? -ne 0 ];then
-      echo "cd openssl dir error!"
-      exit 1
-  fi
-  if ! (./build_android_openssl.sh -x86); then
-    echo "build openssl target x86 error!"
-    exit 1
-  fi
-  cd "$current_dir/$deps_dir/librtmp/rtmpdump-c5f04a5/librtmp"
-  if [ $? -ne 0 ];then
-      echo "cd librtmp dir error!"
-      exit 1
-  fi
-  if ! (./build_android_librtmp.sh -x86); then
-    echo "build openssl target x86 error!"
-    exit 1
-  fi
+FLAG_CLEAN_SUB_PROJECT=false
+for opt do
+    optval="${opt#*=}"
+    echo "opt=$opt"
+    echo "optval=$optval"
+    case "$opt" in
+    --help|-h)
+        show_help
+    ;;
+    clean)
+        fun_build_clean
+    ;;
+    --enable-clean|--enable-clean=*)
+        if [ "$optval" = "--enable-clean" ] || [ "$optval" = "true" ]; then
+          FLAG_CLEAN_SUB_PROJECT=true
+        else
+          FLAG_CLEAN_SUB_PROJECT=false
+        fi
+    ;;
+    --build=*)
+        case "$optval" in
+        armv7a)
+            fun_build_android_libs $FLAG_CLEAN_SUB_PROJECT -armv7a
+        ;;
+        arm64)
+            fun_build_android_libs $FLAG_CLEAN_SUB_PROJECT -arm64
+        ;;
+        x86)
+            fun_build_android_libs $FLAG_CLEAN_SUB_PROJECT -x86
+        ;;
+        x86_64)
+            fun_build_android_libs $FLAG_CLEAN_SUB_PROJECT -x86_64
+        ;;
+        esac
+    ;;
+    esac
+done
+exit 0
 
-  cd "$current_dir/$deps_dir/libfdk-aac/fdk-aac-2.0.1"
-  if [ $? -ne 0 ];then
-      echo "cd libfdk dir error!"
-      exit 1
-  fi
-  if ! (./build_android_fdk_aac.sh -x86); then
-    echo "build libfdk target x86 error!"
-    exit 1
-  fi
-}
-
-fun_build_x86_64() {
-  echo "build target x86_64"
-  cd "$current_dir/$deps_dir/libopenssl/openssl-OpenSSL_1_1_1i"
-  if [ $? -ne 0 ];then
-      echo "cd openssl dir error!"
-      exit 1
-  fi
-  if ! (./build_android_openssl.sh -x86_64); then
-    echo "build openssl target x86 error!"
-    exit 1
-  fi
-  cd "$current_dir/$deps_dir/librtmp/rtmpdump-c5f04a5/librtmp"
-  if [ $? -ne 0 ];then
-      echo "cd librtmp dir error!"
-      exit 1
-  fi
-  if ! (./build_android_librtmp.sh -x86_64); then
-    echo "build openssl target x86_64 error!"
-    exit 1
-  fi
-
-  cd "$current_dir/$deps_dir/libfdk-aac/fdk-aac-2.0.1"
-  if [ $? -ne 0 ];then
-      echo "cd libfdk dir error!"
-      exit 1
-  fi
-  if ! (./build_android_fdk_aac.sh -x86_64); then
-    echo "build libfdk target x86_64 error!"
-    exit 1
-  fi
-}
-
-if [ "$1" = "clean" ]; then
-  fun_build_clean
-  exit 0
-fi
-
-if [ "$1" = "-armv7a" ] || [ "$2" = "-armv7a" ]; then
-  fun_build_armv7a
-elif [ "$1" = "-arm64" ] || [ "$2" = "-arm64" ]; then
-  fun_build_arm64
-elif [ "$1" = "-x86" ] || [ "$2" = "-x86" ]; then
-  fun_build_x86
-elif [ "$1" = "-x86_64" ] || [ "$2" = "-x86_64" ]; then
-  fun_build_x86_64
-fi
