@@ -120,9 +120,12 @@ export LD="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ld"
 
 ./configure --prefix=$PREFIX \
 --host=$HOST \
+--with-pic=yes \
+--disable-asm \
 --enable-shared=yes \
 --enable-static=yes
 
+#exit 0
 #--disable-harfbuzz
 #--with-sysroot=${PLATFORM}
 
