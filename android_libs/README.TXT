@@ -125,3 +125,113 @@ Depend on
  0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so]
  0x000000000000000e (SONAME)             Library soname: [libmp3lame.so]
+
+16. libavutil.so
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libavutil.so]
+
+17. libswscale.so
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavutil.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libswscale.so]
+
+18. libswresample.so
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavutil.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libswresample.so]
+
+18. libavcodec.so
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libswresample.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavutil.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfdk-aac.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libx264.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libavcodec.so]
+
+19. libavformat.so
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavcodec.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavutil.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [librtmp.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libdl.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libavformat.so]
+
+20. libavfilter.so
+   Tag        Type                         Name/Value
+ 0x0000000000000001 (NEEDED)             Shared library: [libm.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libmp3lame.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libxml2.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libpng16.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libharfbuzz.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfreetype.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libiconv.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfribidi.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libfontconfig.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libswscale.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavformat.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavcodec.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libswresample.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libavutil.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libass.so]
+ 0x0000000000000001 (NEEDED)             Shared library: [libc.so]
+ 0x000000000000000e (SONAME)             Library soname: [libavfilter.so]
+
+
+
+
+

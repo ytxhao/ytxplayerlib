@@ -99,3 +99,7 @@ mpglib/tabinit.lo
 mpglib/tabinit.o
 stamp-h1
 vc_solution/Makefile
+libmp3lame/vector/.libs
+libmp3lame/vector/liblamevectorroutines.la
+libmp3lame/vector/xmm_quantize_sub.lo
+libmp3lame/vector/xmm_quantize_sub.o

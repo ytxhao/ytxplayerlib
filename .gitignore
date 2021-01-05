@@ -1,1 +1,5 @@
 build/output/jniLibs/*
+GPATH
+GRTAGS
+GTAGS
+gtags.files
