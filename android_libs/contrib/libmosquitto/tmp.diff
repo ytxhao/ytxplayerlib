@@ -1,0 +1,14 @@
+diff -urN mosquitto-2.0.12/CMakeLists.txt mosquitto-2.0.12.bak/CMakeLists.txt
+--- mosquitto-2.0.12/CMakeLists.txt	2021-09-26 16:48:43.000000000 +0800
++++ mosquitto-2.0.12.bak/CMakeLists.txt	2021-09-26 16:48:15.000000000 +0800
+@@ -64,6 +64,10 @@
+ option(WITH_PIC "Build the static library with PIC (Position Independent Code) enabled archives?" OFF)
+ 
+ option(WITH_THREADING "Include client library threading support?" ON)
++
++set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DANDROID -lz -lc -ldl -lm")
++set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -DANDROID -lz -lc -ldl -lm")
++
+ if (WITH_THREADING)
+ 	add_definitions("-DWITH_THREADING")
+ 	if (WIN32)
