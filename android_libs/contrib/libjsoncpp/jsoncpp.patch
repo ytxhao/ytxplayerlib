@@ -1,0 +1,21 @@
+diff -urN jsoncpp-1.9.4/src/lib_json/CMakeLists.txt jsoncpp-1.9.4.bak/src/lib_json/CMakeLists.txt
+--- jsoncpp-1.9.4/src/lib_json/CMakeLists.txt	2021-10-09 10:42:34.000000000 +0800
++++ jsoncpp-1.9.4.bak/src/lib_json/CMakeLists.txt	2021-10-09 10:44:33.000000000 +0800
+@@ -127,8 +127,6 @@
+     add_library(${SHARED_LIB} SHARED ${PUBLIC_HEADERS} ${JSONCPP_SOURCES})
+     set_target_properties(${SHARED_LIB} PROPERTIES
+         OUTPUT_NAME jsoncpp
+-        VERSION ${PROJECT_VERSION}
+-        SOVERSION ${PROJECT_SOVERSION}
+         POSITION_INDEPENDENT_CODE ON
+     )
+ 
+@@ -188,8 +186,6 @@
+ 
+     set_target_properties(${OBJECT_LIB} PROPERTIES
+         OUTPUT_NAME jsoncpp
+-        VERSION ${PROJECT_VERSION}
+-        SOVERSION ${PROJECT_SOVERSION}
+         POSITION_INDEPENDENT_CODE ON
+     )
+ 
