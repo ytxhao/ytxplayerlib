@@ -51,6 +51,8 @@ set(CMAKE_INSTALL_PREFIX "${CMAKE_SOURCE_DIR}/../../../../build/output/jniLibs/$
 set(CMAKE_SYSROOT "$ENV{ANDROID_NDK_HOME}/toolchains/llvm/prebuilt/${HOST_TAG}/sysroot")
 set(CMAKE_C_COMPILER ${CROSS_COMPILE}clang)
 set(CMAKE_CXX_COMPILER ${CROSS_COMPILE}clang++)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 
 
 # set(NO_SONAME ON)
