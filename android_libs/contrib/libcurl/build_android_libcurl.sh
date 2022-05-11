@@ -1,6 +1,6 @@
 #libpng
-export ANDROID_NDK_HOME=/Volumes/kingston/shared_vagrant_v2/android_ndk/android-ndk-r22b-darwin
-YTXPLAYER_PATH=/Volumes/kingston/shared_vagrant/ytxplayerlib
+export ANDROID_NDK_HOME=/Users/yuhaoo/Library/Android/sdk/ndk/21.1.6352462
+YTXPLAYER_PATH=$(git rev-parse --show-toplevel)
 HOST_TAG=darwin-x86_64
 API=26
 # Application Binary Interface (ABI)
@@ -104,16 +104,18 @@ export RANLIB="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ranlib"
 export AR="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ar"
 export LD="$PREBUILT/$HOST_TAG/bin/${TARGET_TOOL}-ld"
 
+# 需要安装 pkg-config
+
 ./configure --prefix=$PREFIX \
 --host=$HOST \
 --with-openssl
 
 if [ $? -ne 0 ];then
-    echo "configure libpng error!"
+    echo "configure libcurl error!"
     exit 1
 fi
 
-make || exit 1
+make -j4 || exit 1
 make install || exit 1
 
 # cp .libs/libpng.so  .libs/libpng.a ${PREFIX}/lib

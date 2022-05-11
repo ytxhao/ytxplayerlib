@@ -1,7 +1,7 @@
 # OpenSSL_1_1_1i
 # 使用环境变量中的ANDROID_NDK_HOME
-#export ANDROID_NDK_HOME=/home/vagrant/Android/android-ndk-r21d
-HOST_TAG=linux-x86_64
+export ANDROID_NDK_HOME=/Users/yuhaoo/Library/Android/sdk/ndk/21.1.6352462
+HOST_TAG=darwin-x86_64
 API=26
 ABI=
 ARCH=
